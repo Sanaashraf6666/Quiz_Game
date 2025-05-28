@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #001e4d;
+}
+.app{
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 30px;
+    margin: 100px auto 0;
+    max-width: 500px;
+    color: #333;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    
+}
+.app h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #001e4d;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+
+}
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover :not([disabled]) {
+  background: #222;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.btn:disabled {
+  
+  cursor: no-drop;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+
+    margin-top: 20px;
+    display: inline;
+}
+.correct {
+  color: green;
+  font-weight: bold;
+  background: #9aeabc;
+}
+.incorrect {
+  color: red;
+  font-weight: bold;
+  background: #ff9393;
+}
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
